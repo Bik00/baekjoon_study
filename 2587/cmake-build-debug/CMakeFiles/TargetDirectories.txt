@@ -1,0 +1,3 @@
+/home/bonikoo/workspace/baekjoon/2587/cmake-build-debug/CMakeFiles/2587.dir
+/home/bonikoo/workspace/baekjoon/2587/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bonikoo/workspace/baekjoon/2587/cmake-build-debug/CMakeFiles/rebuild_cache.dir
