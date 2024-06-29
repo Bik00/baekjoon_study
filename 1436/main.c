@@ -6,26 +6,20 @@ int main(void)
 	int index = 0;
 	int num = 0;
 	int count = 0;
-	int	score = 0;
 	int answer = 0;
 
 	scanf("%d", &N);
 	while (count < N)
 	{
-		score = 0;
 		num = index;
 
-		while (num % 10 != 0)
+		while (num > 0 && num / 10 != 0)
 		{
-			if (num % 10 == 6)
+			if (num % 10 == 6 && (num / 10) % 10 == 6 && (num / 100) % 10 == 6)
 			{
-				score ++;
-				if (score == 3)
-				{
-					answer = index;
-					count ++;
-					break;
-				}
+				answer = index;
+				count ++;
+				break;
 			}
 			num = num / 10;
 		}
